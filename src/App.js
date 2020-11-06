@@ -1,14 +1,16 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom'; 
+import Main from './components/MainComponent'; 
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          My portfolio 
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+        <div className="App">
+            <Main />
+        </div>
+    </BrowserRouter>
   );
 }
 
