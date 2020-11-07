@@ -1,4 +1,5 @@
 import React, { Component } from 'react'; 
+import Background from '../images/background2.jpg';
 
 class Home extends Component {
     
@@ -9,8 +10,243 @@ class Home extends Component {
 
     render () {
         return (
-            <div>
-                hello
+            <div className='container-fluid'>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>                <div>
+                    hello
+                </div>
+
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
+                <div>
+                    hello
+                </div>
             </div>
         );
     }
