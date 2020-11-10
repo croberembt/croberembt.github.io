@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent'; 
 import { Switch, Route, Redirect } from 'react-router-dom'; 
-import Background from '../images/background2.jpg';
+import Background from '../images/background.jpg';
  
 
 class Main extends Component {
@@ -19,7 +19,7 @@ class Main extends Component {
         };
 
         return (
-            <div className='container-fluid' style={{ backgroundImage: `url(${Background})` }}>
+            <div className='container-fluid full-height' style={{ backgroundImage: `url(${Background})` }}>
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Redirect to='/home' />

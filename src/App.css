@@ -1,9 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
 body {
     margin: 0px;
 }
-.container-fluid {
-    background: transparent;
-    background-position: center;
+
+body > #root > div {
+    height: 100vh;
+}
+
+.full-height {
+    height: 100%;
+    background: no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
+}
+
+div {
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 2rem; 
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
