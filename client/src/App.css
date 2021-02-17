@@ -10,18 +10,33 @@ html, body, #root, .App {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2rem;
 }
 
 div {
   font-family: 'Hind Guntur', sans-serif;
+  font-size: 110%;
+  color: white;
 }
 
 .link {
   text-decoration: none;
+  padding-bottom: 2rem;
   color: white;
 }
 
 .link:hover {
   text-decoration: none;
   color: rgb(173, 173, 247);
+  font-size: 120%;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-image {
+  height: auto;
+  width: 15rem;
 }
