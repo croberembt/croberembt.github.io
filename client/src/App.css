@@ -7,10 +7,11 @@ html, body, #root, .App {
 }
 
 .App {
-  background-position: top right;
+  /*background-position: top right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   padding: 2rem;
+  background-color: #191816;
 }
 
 div {
@@ -27,8 +28,8 @@ div {
 
 .link:hover {
   text-decoration: none;
-  color: rgb(173, 173, 247);
-  font-size: 120%;
+  color: #FBDD66;
+  font-size: 108%;
 }
 
 .card {
@@ -38,5 +39,5 @@ div {
 
 .card-image {
   height: auto;
-  width: 15rem;
+  max-width: 15rem;
 }

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import background from './images/background.jpg'; 
-import background2 from './images/background2.jpg';
+//import background from './images/background.jpg'; 
+//import background2 from './images/background2.jpg';
 import MainComponent from './components/MainComponent'; 
 
 
 const App = () => {
 
+  /*
   const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
 
   const imageUrl = windowWidth >= 650 ? background : background2; 
@@ -24,8 +25,10 @@ const App = () => {
     }
   }, []); 
 
+  */
+
   return (
-      <div className='App' style={{backgroundImage: `url(${imageUrl})`, paddingTop: '2rem'}}>
+      <div className='App' /*style={{backgroundImage: `url(${imageUrl})`, paddingTop: '2rem'}}*/>
         <MainComponent />
       </div>
   );
