@@ -1,36 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
-//import background from './images/background.jpg'; 
-//import background2 from './images/background2.jpg';
 import MainComponent from './components/MainComponent'; 
+import NavbarComponent from './components/NavbarComponent';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 const App = () => {
 
-  /*
-  const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
-
-  const imageUrl = windowWidth >= 650 ? background : background2; 
-
-  useEffect(() => {
-
-    const handleWindowResize = () => {
-      setWindowWidth(window.innerWidth); 
-    }
-
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize); 
-    }
-  }, []); 
-
-  */
-
   return (
-      <div className='App' /*style={{backgroundImage: `url(${imageUrl})`, paddingTop: '2rem'}}*/>
-        <MainComponent />
-      </div>
+      <Router>
+        <NavbarComponent />
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+      </Router>
   );
 }
 
