@@ -49,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>THIS IS MY REUSABLE BUTTON</Button>}
+            {button && <Button id='test' buttonStyle='btn--outline'>THIS IS MY REUSABLE BUTTON</Button>}
         </div>
       </nav>
     </>
