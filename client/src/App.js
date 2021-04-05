@@ -1,19 +1,41 @@
-import React from 'react';
+import React  from 'react';
 import './App.css';
-import MainComponent from './components/MainComponent'; 
-import NavbarComponent from './components/NavbarComponent';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom'; 
+import Navbar from './components/Navbar/Navbar'; 
+import HomePage from './components/HomePage'; 
+import About from './components/About/About'; 
+import Projects from './components/Projects/Projects'; 
 
 const App = () => {
 
   return (
-      <Router>
-        <NavbarComponent />
-      <Switch>
-        <Route path='/' exact />
-      </Switch>
-      </Router>
+    <Router>
+        <Navbar />
+        <div className='container'>
+          <div className='row text-sm-center'>
+            <div className='col-sm'>
+                <NavLink exact={true} className='link' exact to='/'><div className='link'>Home</div></NavLink>
+            </div>
+            <div className='col-sm'>
+                <NavLink className='link' to='/about'><div className='link'>About</div></NavLink>
+            </div>
+            <div className='col-sm'>
+                <NavLink className='link' to='/projects'><div className='link'>Projects</div></NavLink>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Switch>
+            <Route exact path='/' component={HomePage} />
+          </Switch>
+          <Switch>
+            <Route exact path='/about' component={About} />
+          </Switch>
+          <Switch>
+            <Route exact path='/projects' component={Projects} />
+          </Switch>
+        </div>
+    </Router>
   );
 }
 

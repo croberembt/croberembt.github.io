@@ -1,13 +1,26 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
+import { Button } from '../Button/Button'; 
 
-const NavbarComponent = () => {
+const Navbar = () => {
 
   const [ click, setClick ] = useState(false);
+
+  const [button, setButton] = useState(true); 
   
   const handleClick = () => setClick(!click); 
 
   const closeHamburgerMenu = () => setClick(false); 
+
+  const showButton = () => {
+    if (window.innerWidth <=960) {
+      setButton(false); 
+    } else {
+      setButton(true); 
+    }
+  };
+
+  window.addEventListener('resize', showButton); 
 
   return (
     <>
@@ -36,11 +49,11 @@ const NavbarComponent = () => {
                 </Link>
               </li>
             </ul>
-            <button className='btn-option-two btn-large'>Contact Me</button>
+            {button && <Button buttonStyle='btn--outline'>THIS IS MY REUSABLE BUTTON</Button>}
         </div>
       </nav>
     </>
   )
 }
 
-export default NavbarComponent;
+export default Navbar;

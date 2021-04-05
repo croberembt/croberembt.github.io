@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink } from 'reactstrap'; 
 
-const ProjectsComponent = () => {
+const Projects = () => {
 
   return (
     <div className='container'>
@@ -49,4 +49,4 @@ const ProjectsComponent = () => {
   );
 }
 
-export default ProjectsComponent;
+export default Projects;
