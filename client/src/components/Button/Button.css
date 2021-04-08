@@ -1,7 +1,15 @@
 .btn--fill {
+  font-weight: bold;
+  border-radius: 5rem;
+  padding: .3rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: .1rem solid transparent;
   background-color: black; 
   color: white;
-  font-weight: bold;
 }
 
 .btn--outline {
@@ -37,6 +45,4 @@
   font-weight: bold; 
 }
 
-#test {
-  font-size: 3rem;
-}
+

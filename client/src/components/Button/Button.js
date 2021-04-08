@@ -14,7 +14,7 @@ const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
         id={id}
         className={`${checkButtonStyle}`}
         onClick={onClick}
-        type={type}
+        type='button'
       >
         {children}
       </button>
