@@ -1,14 +1,14 @@
 .btn--fill {
+  font-family: Arial;
   font-weight: bold;
   border-radius: 5rem;
-  padding: .3rem 1rem;
+  padding: .5rem 1rem;
   font-size: 1rem;
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
-  border: .1rem solid transparent;
   background-color: black; 
+  border-color: black;
   color: white;
 }
 

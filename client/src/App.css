@@ -12,7 +12,7 @@ html, body, #root, .App {
 }
 
 div {
-  font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Arial'; 
   font-size: 110%;
 }
 
