@@ -4,16 +4,17 @@
 html, body, #root, .App {
   min-height: 100vh;
   margin: 0;
+  background-color: #191816;
 }
 
 .App {
   padding: 2rem;
-  background-color: #191816;
 }
 
 div {
   font-family: 'Arial'; 
   font-size: 110%;
+
 }
 
 .link {

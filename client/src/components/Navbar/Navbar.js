@@ -49,8 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--fill'>THIS IS MY REUSABLE BUTTON</Button>}
-            <button className='btn btn-primary'>THIS IS MY REGULAR BUTTON</button>
+            {button && <Button buttonStyle='custom-button-fill'>BUTTON TEXT</Button>}
         </div>
       </nav>
     </>

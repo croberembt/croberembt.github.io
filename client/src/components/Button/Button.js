@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css'; 
 import { Link } from 'react-router-dom'; 
 
-const STYLES = ['btn--fill', 'btn--outline', 'btn--fill--danger', 'btn--outline--danger', 'btn--fill--success', 'btn--outline--success']; 
+const STYLES = ['custom-button-fill', 'custom-button-outline', 'btn--fill--danger', 'btn--outline--danger', 'btn--fill--success', 'btn--outline--success']; 
 
 export const Button = ({children, id, type, onClick, buttonStyle }) => {
   

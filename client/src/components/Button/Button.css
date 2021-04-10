@@ -1,15 +1,19 @@
-.btn--fill {
+.custom-button-fill {
   font-family: Arial;
   font-weight: bold;
   border-radius: 5rem;
-  padding: .5rem 1rem;
+  padding: .7rem 1rem;
   font-size: 1rem;
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
-  background-color: black; 
-  border-color: black;
+  background-image: linear-gradient(to right, #D357A2, #FFA234);
+  border: none;
   color: white;
+}
+
+.custom-button-fill:hover {
+  background-image: linear-gradient(to right, #FFA234, #D357A2);
 }
 
 .btn--outline {
