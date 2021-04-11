@@ -1,4 +1,6 @@
-.custom-button-fill {
+/* default */
+
+.custom-button {
   font-family: Arial;
   font-weight: bold;
   border-radius: 5rem;
@@ -7,46 +9,58 @@
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
-  background-image: linear-gradient(to right, #D357A2, #FFA234);
   border: none;
   color: white;
+  background-color: #191816;
+  border: 1px solid white;
 }
 
-.custom-button-fill:hover {
-  background-image: linear-gradient(to right, #FFA234, #D357A2);
+.custom-button:hover {
+  background-color: white;
+  color: #191816;
+  border: 1px solid #191816;
 }
 
-.btn--outline {
-  background-color: transparent;
-  border-color: black;
-  color: black;
+
+/* sunset */
+
+.custom-button-sunset {
+  font-family: Arial;
   font-weight: bold;
-}
-
-.btn--fill--danger {
-  background-color: red;
-  color: black;
-  font-weight: bold;
-}
-
-.btn--outline--danger {
-  background-color: transparent;
-  border-color: red;
-  color: black;
-  font-weight: bold;
-}
-
-.btn--fill--success {
-  background-color: green;
+  border-radius: 5rem;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
   color: white;
+  background-image: linear-gradient(to right, #D357A2, #FFA234);
+  border: 1px solid #191816;
+}
+
+.custom-button-sunset:hover {
+  background-image: linear-gradient(to right, #FFA234, #D357A2);
+  border: 1px solid transparent;
+}
+
+.custom-button-cotton-candy {
+  font-family: Arial;
   font-weight: bold;
+  border-radius: 5rem;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, #D357A2, #FFA234);
+  border: 1px solid #191816;
 }
 
-.btn--outline--success {
-  background-color: transparent;
-  border-color: green;
-  color: black;
-  font-weight: bold; 
+.custom-button-cotton-candy:hover {
+  background-image: linear-gradient(to right, #FFA234, #D357A2);
+  border: 1px solid transparent;
 }
-
 

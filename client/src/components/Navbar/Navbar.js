@@ -49,7 +49,27 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='custom-button-fill'>BUTTON TEXT</Button>}
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button-sunset'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
+            <div style={{padding: '1rem'}}>
+              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+            </div>
         </div>
       </nav>
     </>

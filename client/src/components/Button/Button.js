@@ -2,9 +2,9 @@ import React from 'react';
 import './Button.css'; 
 import { Link } from 'react-router-dom'; 
 
-const STYLES = ['custom-button-fill', 'custom-button-outline', 'btn--fill--danger', 'btn--outline--danger', 'btn--fill--success', 'btn--outline--success']; 
+const STYLES = ['custom-button', 'custom-button-sunset']; 
 
-export const Button = ({children, id, type, onClick, buttonStyle }) => {
+export const Button = ({children, id, onClick, buttonStyle }) => {
   
 const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]; 
 
@@ -14,7 +14,6 @@ const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
         id={id}
         className={`${checkButtonStyle}`}
         onClick={onClick}
-        type='button'
       >
         {children}
       </button>
