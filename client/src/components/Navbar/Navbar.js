@@ -56,10 +56,10 @@ const Navbar = () => {
               <Button buttonStyle='custom-button-sunset'>BUTTON TEXT</Button>
             </div>
             <div style={{padding: '1rem'}}>
-              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+              <Button buttonStyle='custom-button-cotton-candy'>BUTTON TEXT</Button>
             </div>
             <div style={{padding: '1rem'}}>
-              <Button buttonStyle='custom-button'>BUTTON TEXT</Button>
+              <Button buttonStyle='custom-button-sea-foam'>BUTTON TEXT</Button>
             </div>
             <div style={{padding: '1rem'}}>
               <Button buttonStyle='custom-button'>BUTTON TEXT</Button>

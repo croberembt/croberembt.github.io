@@ -10,13 +10,13 @@
   display: inline-block;
   vertical-align: middle;
   border: none;
-  color: white;
-  background-color: #191816;
-  border: 1px solid white;
+  color: #191816;
+  background-color: white;
+  border: 1px solid #191816;
 }
 
 .custom-button:hover {
-  background-color: white;
+  background-color: gray;
   color: #191816;
   border: 1px solid #191816;
 }
@@ -41,8 +41,11 @@
 
 .custom-button-sunset:hover {
   background-image: linear-gradient(to right, #FFA234, #D357A2);
-  border: 1px solid transparent;
+  border: 1px solid #191816;
 }
+
+
+/* cotton candy */
 
 .custom-button-cotton-candy {
   font-family: Arial;
@@ -55,12 +58,40 @@
   vertical-align: middle;
   border: none;
   color: white;
-  background-image: linear-gradient(to right, #D357A2, #FFA234);
+  background-image: linear-gradient(to right, #D357A2, #1BBCDA);
   border: 1px solid #191816;
 }
 
 .custom-button-cotton-candy:hover {
-  background-image: linear-gradient(to right, #FFA234, #D357A2);
-  border: 1px solid transparent;
+  background-image: linear-gradient(to right, #1BBCDA, #D357A2);
+  border: 1px solid #191816;
+}
+
+
+/* mean green */
+
+.custom-button-sea-foam {
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 5rem;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, #1BBCDA, #53D753);
+  border: 1px solid #191816;
+}
+
+.custom-button-sea-foam:hover {
+  background-image: linear-gradient(to right, #53D753, #1BBCDA);
+  border: 1px solid #191816;
+}
+
+.custom-button-sea-foam:focus {
+  outline: none; 
+  opacity: .8;
 }
 
