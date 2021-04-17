@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
         <Navbar />
-        <div className='container'>
+        {/* <div className='container'>
           <div className='row text-sm-center'>
             <div className='col-sm'>
                 <NavLink exact={true} className='link' exact to='/'><div className='link'>Home</div></NavLink>
@@ -23,8 +23,8 @@ const App = () => {
                 <NavLink className='link' to='/projects'><div className='link'>Projects</div></NavLink>
             </div>
           </div>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <Switch>
             <Route exact path='/' component={HomePage} />
           </Switch>
@@ -34,7 +34,7 @@ const App = () => {
           <Switch>
             <Route exact path='/projects' component={Projects} />
           </Switch>
-        </div>
+        </div> */}
     </Router>
   );
 }

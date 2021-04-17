@@ -4,21 +4,23 @@
   font-family: Arial;
   font-weight: bold;
   border-radius: 5rem;
-  padding: .7rem 1rem;
+  padding: .7rem 1rem; 
   font-size: 1rem;
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
   border: none;
-  color: #191816;
-  background-color: white;
-  border: 1px solid #191816;
+  color: white;
+  background-color: #33cc33;
 }
 
 .custom-button:hover {
-  background-color: gray;
-  color: #191816;
-  border: 1px solid #191816;
+  opacity: .8;
+}
+
+.custom-button:focus {
+  outline: none; 
+  box-shadow: 0 0 0 0.2rem #40804F;
 }
 
 
@@ -36,12 +38,17 @@
   border: none;
   color: white;
   background-image: linear-gradient(to right, #D357A2, #FFA234);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
 }
 
 .custom-button-sunset:hover {
   background-image: linear-gradient(to right, #FFA234, #D357A2);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
+}
+
+.custom-button-sunset:focus {
+  outline: none; 
+  box-shadow: 0 0 0 0.2rem #40804F;
 }
 
 
@@ -59,12 +66,17 @@
   border: none;
   color: white;
   background-image: linear-gradient(to right, #D357A2, #1BBCDA);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
 }
 
 .custom-button-cotton-candy:hover {
   background-image: linear-gradient(to right, #1BBCDA, #D357A2);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
+}
+
+.custom-button-cotton-candy:focus {
+  outline: none; 
+  box-shadow: 0 0 0 0.2rem #40804F;
 }
 
 
@@ -82,16 +94,16 @@
   border: none;
   color: white;
   background-image: linear-gradient(to right, #1BBCDA, #53D753);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
 }
 
 .custom-button-sea-foam:hover {
   background-image: linear-gradient(to right, #53D753, #1BBCDA);
-  border: 1px solid #191816;
+  border: .06rem solid #191816;
 }
 
 .custom-button-sea-foam:focus {
   outline: none; 
-  opacity: .8;
+  box-shadow: 0 0 0 0.2rem #40804F;
 }
 
