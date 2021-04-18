@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-md'>
+        <div className='col-md-6'>
           <Card style={{backgroundColor: 'black'}}>
             <CardBody>
               <CardTitle><h2>Full Stack React Online Store</h2></CardTitle>
@@ -18,7 +18,7 @@ const Projects = () => {
             </CardBody>
           </Card>
         </div>
-        <div className='col-md'>
+        <div className='col-md-6'>
           <Card style={{backgroundColor: 'black'}}>
             <CardBody>
               <CardTitle><h2>Full Stack React Travel Log</h2></CardTitle>

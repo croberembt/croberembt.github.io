@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'reactstrap'; 
 
-const HomeComponent = () => {
+const Home = () => {
 
   return (
     <div className='container'>
@@ -25,4 +25,4 @@ const HomeComponent = () => {
   );
 }
 
-export default HomeComponent;
+export default Home;

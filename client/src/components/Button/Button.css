@@ -1,8 +1,7 @@
 /* default */
 
 .custom-button {
-  font-family: Arial;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 5rem;
   padding: .7rem 1rem; 
   font-size: 1rem;
@@ -27,8 +26,7 @@
 /* sunset */
 
 .custom-button-sunset {
-  font-family: Arial;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 5rem;
   padding: .7rem 1rem;
   font-size: 1rem;
@@ -55,8 +53,7 @@
 /* cotton candy */
 
 .custom-button-cotton-candy {
-  font-family: Arial;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 5rem;
   padding: .7rem 1rem;
   font-size: 1rem;
@@ -80,11 +77,10 @@
 }
 
 
-/* mean green */
+/* sea foam */
 
 .custom-button-sea-foam {
-  font-family: Arial;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 5rem;
   padding: .7rem 1rem;
   font-size: 1rem;

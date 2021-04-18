@@ -1,38 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&family=Roboto:ital,wght@0,300;1,300&display=swap');
+html {
+  font-size: 10px;
+}
 
 html, body, #root, .App {
   min-height: 100vh;
   margin: 0;
   background-color: #191816;
-}
-
-.App {
-  padding: 2rem;
-}
-
-div {
-  font-family: 'Arial'; 
-  font-size: 110%;
-}
-
-.link {
-  text-decoration: none;
-  padding-bottom: 2rem;
-}
-
-.link:hover {
-  text-decoration: none;
-  color: #FBDD66;
-  font-size: 108%;
-}
-
-.card {
-  padding: 1rem;
-  margin: 1rem;
-}
-
-.card-image {
-  height: auto;
-  max-width: 15rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
