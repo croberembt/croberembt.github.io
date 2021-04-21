@@ -10,34 +10,43 @@ const App = () => {
 
   return (
     <Router>
+      <div className='container'>
+        
         <Navbar />
-        <Home />
-        <About />
+
+        {/* <Home />
+
+        <About /> */}
+
         <Projects />
-        {/* <div className='container'>
-          <div className='row text-sm-center'>
-            <div className='col-sm'>
-                <NavLink exact={true} className='link' exact to='/'><div className='link'>Home</div></NavLink>
+
+          {/* <div className='container'>
+            <div className='row text-sm-center'>
+              <div className='col-sm'>
+                  <NavLink exact={true} className='link' exact to='/'><div className='link'>Home</div></NavLink>
+              </div>
+              <div className='col-sm'>
+                  <NavLink className='link' to='/about'><div className='link'>About</div></NavLink>
+              </div>
+              <div className='col-sm'>
+                  <NavLink className='link' to='/projects'><div className='link'>Projects</div></NavLink>
+              </div>
             </div>
-            <div className='col-sm'>
-                <NavLink className='link' to='/about'><div className='link'>About</div></NavLink>
-            </div>
-            <div className='col-sm'>
-                <NavLink className='link' to='/projects'><div className='link'>Projects</div></NavLink>
-            </div>
-          </div>
-        </div> */}
-        {/* <div>
-          <Switch>
-            <Route exact path='/' component={HomePage} />
-          </Switch>
-          <Switch>
-            <Route exact path='/about' component={About} />
-          </Switch>
-          <Switch>
-            <Route exact path='/projects' component={Projects} />
-          </Switch>
-        </div> */}
+          </div> */}
+
+          {/* <div>
+            <Switch>
+              <Route exact path='/' component={HomePage} />
+            </Switch>
+            <Switch>
+              <Route exact path='/about' component={About} />
+            </Switch>
+            <Switch>
+              <Route exact path='/projects' component={Projects} />
+            </Switch>
+          </div> */}
+
+        </div>
     </Router>
   );
 }

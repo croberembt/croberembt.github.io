@@ -1,11 +1,21 @@
-html {
-  font-size: 10px;
-}
-
 html, body, #root, .App {
   min-height: 100vh;
   margin: 0;
   background-color: #191816;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 90%; 
+    margin: auto; 
+  }
+}
+
+@media only screen and (min-width: 401px) {
+  .container {
+    max-width: 80%; 
+    margin: auto; 
+  }
 }
