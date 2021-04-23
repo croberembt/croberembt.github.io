@@ -1,4 +1,10 @@
 .projects {
   color: white;
+  display: flex;
+  justify-content: center; 
 }
 
+.projects .project-card {
+  padding: 0rem; 
+  border: solid .2rem white;
+}
