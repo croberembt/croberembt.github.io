@@ -1,10 +1,13 @@
 .projects {
   color: white;
+}
+
+.projects-group {
   display: flex;
-  justify-content: center; 
+  justify-content: space-between; 
 }
 
 .projects .project-card {
-  padding: 0rem; 
-  border: solid .2rem white;
+  padding: 2rem; 
+  border: solid .32rem white;
 }
