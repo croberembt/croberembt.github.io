@@ -4,10 +4,13 @@
 
 .projects-group {
   display: flex;
-  justify-content: space-between; 
+  flex-wrap: wrap; 
+  justify-content: center; 
 }
 
 .projects .project-card {
   padding: 2rem; 
   border: solid .32rem white;
+  margin: 2rem;
+  flex-grow: 1; 
 }
