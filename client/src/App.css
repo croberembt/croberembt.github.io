@@ -31,19 +31,18 @@ html, body, #root, .App {
   font-weight: 400;
 }
 
+/* classes */
+
+.container {
+  max-width: 85%; 
+  margin: auto; 
+}
 
 /* media queries */
 
 @media only screen and (max-width: 400px) {
   .container {
     max-width: 90%; 
-    margin: auto; 
-  }
-}
-
-@media only screen and (min-width: 401px) {
-  .container {
-    max-width: 80%; 
     margin: auto; 
   }
 }
