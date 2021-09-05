@@ -23,7 +23,7 @@ const Projects = () => {
           <h1>Full Stack React Travel Log</h1>
           <h4>Full Stack React Travel Log</h4>
           <div>Full Stack React Travel Log</div>
-          <a href='https://oberembt-travel-log.vercel.app/'>See It Live</a>
+          <a href='https://oberembt-travel-log.vercel.app/' target="_blank" rel="noreferrer">See It Live</a>
         </div>
         
       </div>
